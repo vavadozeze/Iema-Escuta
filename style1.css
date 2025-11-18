@@ -1,0 +1,45 @@
+body{
+      background-image: url('/fotos/mais logo.jpg');
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      height: 110vh; 
+      margin: 0;
+      background-position: left;
+ }
+           
+
+.center{
+
+display:flex;
+justify-content: flex-end; 
+max-width:1200px;
+margin:0 auto;
+padding:0 2% ;
+
+}
+header{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 20px 50;
+}
+
+.logo{
+      margin-right: 20px;
+}     
+   
+main {
+      padding: 250px;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: rgba(196, 183, 183, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img.logo {
+      position: relative;
+      left: 5000px
+
+
+      
+}
